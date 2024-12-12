@@ -1,3 +1,9 @@
+Programs for Module 1 includes:
+- [earlier modules to be added soon]
+- areas.py
+- health_checks.py
+
+------ Notes begin here ------
 Look at IT Automatin like an IT Workforce Multiplier.
 Automation allows the IT Infastructure to scale, and growth.
 ![Scalability](pngs/Scalability.png)
@@ -14,7 +20,7 @@ Another Pro in Scripting is that it centralizes mistakes.
 Tradeoffs:
 ![Tradeoffs in Automation](pngs/image.png)
 ![When to Automate?](pngs/image-1.png)
-![To auotmate ot not?](pngs/image-2.png)
+![To auotmate or not?](pngs/image-2.png)
 
 Investigate:
 ![Pareto Principle](pngs/image-3.png)
