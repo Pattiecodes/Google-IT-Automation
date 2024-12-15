@@ -17,3 +17,6 @@ is called the "absolute path".
 ![open-close method](<Screenshot (457).png>)
 - With block syntax, automatically closes the file.
 ![with method in opening file](<Screenshot (458).png>)
+
+- Word of Caution:
+-- Readline and read are useful methods, but reading them into a variable might be dangerous if the file is large.
