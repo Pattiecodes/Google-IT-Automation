@@ -20,3 +20,12 @@ is called the "absolute path".
 
 - Word of Caution:
 -- Readline and read are useful methods, but reading them into a variable might be dangerous if the file is large.
+
+-- Modes --
+- Modes are similar to a file permission.
+- r = read - The default mode
+- w = write
+- a = append
+- r+ = read and write
+- w+ = append and write
+![Write mode](<pngs/Screenshot (469).png>)
