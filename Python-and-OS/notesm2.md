@@ -5,3 +5,7 @@ and files that are used in the computer.
 - The root directory is the top of the tree, and is called the "root directory". And the path back to the home
 is called the "absolute path".
 ![absolute path](<Screenshot (442).png>)
+
+-- File Descriptor --
+- A file descriptor is a unique number that is assigned to a file.
+![File Descriptor](<Screenshot (453).png>)
