@@ -9,3 +9,11 @@ is called the "absolute path".
 -- File Descriptor --
 - A file descriptor is a unique number that is assigned to a file.
 ![File Descriptor](<Screenshot (453).png>)
+- uses readline/read method to read the file.
+![readline method](<Screenshot (454).png>)
+![read method](<Screenshot (456).png>)
+
+- Always close files when you open them:
+![open-close method](<Screenshot (457).png>)
+- With block syntax, automatically closes the file.
+![with method in opening file](<Screenshot (458).png>)
