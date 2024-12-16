@@ -1,3 +1,6 @@
+Files included in this module:
+- reading_and_writing_files.py
+
 Module Notes for Module 2
 
 - The OS is structured with a tree structure, called "directories" or folders. These contain directories,
