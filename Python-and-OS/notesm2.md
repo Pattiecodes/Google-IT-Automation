@@ -38,3 +38,9 @@ Relative File path
 - ![Relative File Path](<Screenshot (497).png>)
 - Usually preferred by programmers for its flexibility.
 - ![File Paths](<Screenshot (501).png>)
+
+File Paths are different from each OS:
+![Windows vs Mac/Linux File Paths](<Screenshot (503).png>)
+- Often times, you need to have a double back-slash in using backslashes,
+as backslashes is a special character in Python.
+![Double Backslash](<Screenshot (503)-1.png>)
