@@ -32,3 +32,9 @@ is called the "absolute path".
 - r+ = read and write
 - w+ = append and write
 ![Write mode](<pngs/Screenshot (469).png>)
+
+-- Reading and Writing on Files with Python --
+Relative File path
+- ![Relative File Path](<Screenshot (497).png>)
+- Usually preferred by programmers for its flexibility.
+- ![File Paths](<Screenshot (501).png>)
