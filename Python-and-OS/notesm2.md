@@ -1,5 +1,6 @@
 Files included in this module:
 - reading_and_writing_files.py
+- working_with_files.py
 
 Module Notes for Module 2
 
@@ -55,4 +56,5 @@ the outputs be saved somewhere. An example of using relative file path:
 ![Relative File Path Example](<pngs/Screenshot (515).png>)
 
 NOTE IN FILE PATHS:
-![Important in File Pathsw](<pngs/Screenshot (516).png>)
+![Important in File Paths](<pngs/Screenshot (516).png>)
+![Reminder for File Paths](<Screenshot (518).png>)
