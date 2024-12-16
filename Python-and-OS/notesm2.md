@@ -35,12 +35,24 @@ is called the "absolute path".
 
 -- Reading and Writing on Files with Python --
 Relative File path
-- ![Relative File Path](<Screenshot (497).png>)
+- ![Relative File Path](<pngs/Screenshot (497).png>)
 - Usually preferred by programmers for its flexibility.
-- ![File Paths](<Screenshot (501).png>)
+- ![File Paths](<pngs/Screenshot (501).png>)
 
 File Paths are different from each OS:
-![Windows vs Mac/Linux File Paths](<Screenshot (503).png>)
+![Windows vs Mac/Linux File Paths](<pngs/Screenshot (503).png>)
 - Often times, you need to have a double back-slash in using backslashes,
 as backslashes is a special character in Python.
-![Double Backslash](<Screenshot (503)-1.png>)
+![Double Backslasj](<pngs/Screenshot (509).png>)
+
+CWD Commands for File Paths:
+![usual CWD Command](<Screenshot (512).png>)
+![CWD for External Commands](<pngs/Screenshot (513).png>)
+
+- Oftentimes, in automation. You'll have to write on text file, and
+the outputs be saved somewhere. An example of using relative file path:
+![RElative File Path Saved](<pngs/Screenshot (514).png>)
+![Relative File Path Example](<pngs/Screenshot (515).png>)
+
+NOTE IN FILE PATHS:
+![Important in File Pathsw](<pngs/Screenshot (516).png>)
