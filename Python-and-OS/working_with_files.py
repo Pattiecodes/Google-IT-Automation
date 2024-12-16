@@ -43,3 +43,59 @@ for name in os.listdir(dir):
      else:
         print("{} is a file".format(fullname))
 
+# Create a directory and move a file from one directory to another
+# using low-level OS functions.
+
+import os
+
+# Check to see if a directory named "test1" exists under the current
+# directory. If not, create it:
+dest_dir = os.path.join(os.getcwd(), "test1")
+if not os.path.exists(dest_dir):
+ os.mkdir(dest_dir)
+
+
+# Construct source and destination paths:
+src_file = os.path.join(os.getcwd(), "sample_data", "README.md")
+dest_file = os.path.join(os.getcwd(), "test1", "README.md")
+
+
+# Move the file from its original location to the destination:
+os.rename(src_file, dest_file)
+
+#PathLib
+# Create a directory and move a file from one directory to another
+# using Pathlib.
+
+from pathlib import Path
+
+# Check to see if the "test1" subdirectory exists. If not, create it:
+dest_dir = Path("./test1/")
+if not dest_dir.exists():
+  dest_dir.mkdir()
+
+# Construct source and destination paths:
+src_file = Path("./sample_data/README.md")
+dest_file = dest_dir / "README.md"
+
+# Move the file from its original location to the destination:
+src_file.rename(dest_file)
+
+
+"""CSV FILES"""
+# Reading CSV Files
+import csv
+f = open("csv_file.txt")
+csv_f = csv.reader(f)
+for row in csv_f:
+    name, phone, role = row
+    print("Name: {}, Phone: {}, Role: {}".format(name, phone, role))
+f.close()
+
+#Generating your own CSV File
+import csv
+
+hosts = [["workstation.local", "192.168.25.46"],["webserver.cloud", "10.2.5.6"]]
+with open('hosts.csv', 'w') as hosts_csv:
+    writer = csv.writer(hosts_csv)
+    writer.writerows(hosts)
