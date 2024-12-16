@@ -57,4 +57,8 @@ the outputs be saved somewhere. An example of using relative file path:
 
 NOTE IN FILE PATHS:
 ![Important in File Paths](<pngs/Screenshot (516).png>)
-![Reminder for File Paths](<Screenshot (518).png>)
+![Reminder for File Paths](<pngs/Screenshot (518).png>)
+Things to keep in mind  
+One thing to be aware of is that Python treats text and binary files differently. Because Python is cross-platform, it tries to automatically handle different ASCII line endings. If you’re processing a binary file, make sure to open it in binary mode so Python doesn’t try to “fix” newlines in a binary file.
+
+A best practice is to always close() a file when you’re done reading or writing to it. Even though Python usually closes them for you, it’s a good signal to other people reading your code that you’re done with that file. Make sure to catch any potential errors from filesystem calls, such as permission denied, file not found, and so on. Generally, you wrap them in try/except to handle those errors.
