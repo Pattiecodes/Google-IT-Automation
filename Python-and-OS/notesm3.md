@@ -1,4 +1,5 @@
 Relevant Files for Module 3:
+- notesm3_programs.py
 
 
 --- Notes Start Here ---
