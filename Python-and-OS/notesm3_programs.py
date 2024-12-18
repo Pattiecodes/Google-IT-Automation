@@ -57,3 +57,19 @@ print(re.search(r"cat|dog", "I like cats."))
 print(re.search(r"cat|dog", "I love dogs!"))
 print(re.search(r"cat|dog", "I like both dogs and cats."))
 print(re.findall(r"cat|dog", "I like both dogs and cats."))
+
+#Repetition Qualifiers
+import re
+print(re.search(r"Py.*n", "Pygmalion"))
+print(re.search(r"Py.*n", "Python Programming"))
+print(re.search(r"Py[a-z]*n", "Python Programming"))
+print(re.search(r"Py[a-z]*n", "Pyn"))
+
+import re
+print(re.search(r"o+l+", "goldfish"))
+print(re.search(r"o+l+", "woolly"))
+print(re.search(r"o+l+", "boil"))
+
+import re
+print(re.search(r"p?each", "To each their own"))
+print(re.search(r"p?each", "I like peaches"))
