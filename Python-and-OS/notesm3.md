@@ -24,3 +24,20 @@ Regular Expressions Uses:
 ![RegEx_uses](<Screenshot (633).png>)
 - Always use raw strings for regular expressions:
 ![RawString in RegEx](<Screenshot (632).png>)
+
+Escape Characters:
+ Escape Characters are used to escape special characters.
+ Examples:
+ \w - matches any word character
+ \W - matches any non-word character
+ \d - matches any digit
+ \D - matches any non-digit
+ \s - matches any whitespace character
+ \S - matches any non-whitespace character
+ \b - matches the beginning or end of a word
+ \B - matches any character that is not the beginning or end of a word
+ \A - matches the beginning of a string
+ \Z - matches the end of a string
+ \n - matches a newline character
+ (regex101.com)
+
