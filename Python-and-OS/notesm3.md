@@ -18,3 +18,8 @@ Grep Function
 ![caret character](<Screenshot (602).png>)
 - dollar sign ($) - can be used to find characters/words at the end of a line.
 ![dollar sign](<Screenshot (603).png>)
+
+Regular Expressions Uses:
+![RegEx_uses](<Screenshot (633).png>)
+- Always use raw strings for regular expressions:
+![RawString in RegEx](<Screenshot (632).png>)
