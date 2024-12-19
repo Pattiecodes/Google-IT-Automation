@@ -205,3 +205,16 @@ def extract_pid(log_line):
 print(extract_pid(log))
 print(extract_pid("99 elephants in a [cage]"))
 
+#Splitting and Replacing
+import re
+re.split(r"[.?!]", "One sentence. Another one? And the last one!")
+
+import re
+re.split(r"([.?!])", "One sentence. Another one? And the last one!")
+
+import re
+re.sub(r"[\w.%+-]+@[\w.-]+", "[REDACTED]", "Received an email for go_nuts95@my.example.com")
+
+import re
+re.sub(r"^([\w .-]*), ([\w .-]*)$", r"\2 \1", "Lovelace, Ada")
+
