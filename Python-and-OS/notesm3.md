@@ -41,3 +41,5 @@ Escape Characters:
  \n - matches a newline character
  (regex101.com)
 
+Capturing Groups
+![Capturing Groups](<Screenshot (721).png>)
