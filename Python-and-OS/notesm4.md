@@ -11,3 +11,6 @@ I/O Streams
 The Shell
 ![Shell - Linux](<Screenshot (825).png>)
 ![Shell - Function - Linux](<Screenshot (827).png>)
+
+When to use Subprocesses
+![When to use subprocesses](<Screenshot (1069).png>)
