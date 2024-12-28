@@ -145,3 +145,57 @@ Error, the file example already exists!
 echo $?
 1
 
+
+import subprocess
+subprocess.run(["date"])
+
+import subprocess
+subprocess.run(["date"])
+subprocess.run(["sleep", "2"])
+
+import subprocess
+subprocess.run(["date"])
+subprocess.run(["sleep", "2"])
+result = subprocess.run(["ls", "this_file_does_not_exist"])
+print(result.returncode)
+
+#Obtaining output of system command
+result = subprocess.run(["host", "8.8.8.8"], capture_output=True)
+
+
+
+result = subprocess.run(["host", "8.8.8.8"], capture_output=True)
+print(result.returncode)
+
+
+
+result = subprocess.run(["host", "8.8.8.8"], capture_output=True)
+print(result.stdout)
+
+
+
+result = subprocess.run(["host", "8.8.8.8"], capture_output=True)
+print(result.stdout.decode().split())
+
+import subprocess
+result = subprocess.run(["rm", "does_not_exist"], capture_output=True)
+
+
+import subprocess
+result = subprocess.run(["rm", "does_not_exist"], capture_output=True)
+print(result.returncode)
+
+import subprocess
+result = subprocess.run(["rm", "does_not_exist"], capture_output=True)
+print(result.returncode)
+print(result.stdout)
+print(result.stderr)
+
+#Advanced subprocess Management
+import os
+import subprocess
+
+my_env = os.environ.copy()
+my_env["PATH"] = os.pathsep.join(["/opt/myapp/", my_env["PATH"]])
+
+result = subprocess.run(["myapp"], env=my_env)
