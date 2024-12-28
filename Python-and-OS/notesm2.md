@@ -1,5 +1,5 @@
 Files included in this module:
-- reading_and_writing_files.py
+- reading_and_writing_files.py, guests.txt
 - working_with_files.py
 
 Module Notes for Module 2
