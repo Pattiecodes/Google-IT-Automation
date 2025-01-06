@@ -1,5 +1,6 @@
 Relevant Files for Module 3:
 - notesm4_programs.py
+- work_with_log_files.py (python script)
 
 
 --- Notes Start Here ---
