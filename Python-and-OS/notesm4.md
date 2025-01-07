@@ -1,6 +1,6 @@
 Relevant Files for Module 3:
 - notesm4_programs.py
-- work_with_log_files.py (python script)
+- work_with_log_files.py (python script - QwikLabs for Module 4)
 
 
 --- Notes Start Here ---
